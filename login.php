@@ -15,7 +15,7 @@ if (isset($_POST['email']) and isset($_POST['senha'])) {
 
 
 
-    $query = "SELECT * FROM usuario WHERE EMAIL_USUARIO = '$email'";
+    $query = "SELECT * FROM usuarios WHERE EMAIL_USUARIO = '$email'";
     $result = mysql_query($query);
     $totalUsuario = mysql_num_rows($result);
     $hash = $totalUsuario['SENHA_USUARIO'];
