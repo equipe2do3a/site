@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <form action="esqueci.php">
+        <form action="esqueci.php" method="post">
             Email:<input type="email" name="email" id="email" >&nbsp;
             <input type="submit" value="Enviar"><br/>
             <a href="frmlogin.php"> Voltar </a> 

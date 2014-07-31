@@ -2,7 +2,10 @@
 //Validando o Usuario 
 
 function validaAutenticacao($link,$tipo){
+    if($tipo === "ADM")
     include '../classes/bcrypt.class.php';
+    else
+        include 'classes/bcrypt.class.php';
     echo '<meta charset=UTF-8>';
     session_start();
     if(!isset($_SESSION['email']) or !isset($_SESSION['senha']))
