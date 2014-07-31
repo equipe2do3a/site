@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu{
+     width: 1400px;
+     height: 140px;
+     position: fixed;
+      }
+
+#menu_sprite{
+    list-style-type: none;
+    margin-left: 0px;
+    width:1400px;
+    height: 130px;
+}
+
+.geral{
+    width: 200px;
+    height: 130px;
+    background-image: url('../imagens/botao.png');
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+#home{
+    background-position: 0px 0px;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#home:hover{
+    background-position: 0px -140px;
+}
+
+#romance{
+    background-position: -204px 0px; 
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#romance:hover{
+    background-position: -204px -140px;  
+}
+
+#comedia{
+    background-position: -411px 0px;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#comedia:hover{
+     background-position: -411px -140px;
+}
+
+#acao{
+    background-position: -618px 0px; 
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#acao:hover{
+    background-position: -618px -140px;
+}
+
+#drama{
+    background-position: -823px 0px;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#drama:hover{
+    background-position: -823px -140px;
+}
+
+#terror{
+    background-position: -1032px 0px;  
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#terror:hover{
+    background-position: -1032px -140px;
+}
+
+#cult{
+    background-position: -1238px 0px;  
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#cult:hover{
+    background-position: -1238px -140px;
+}
