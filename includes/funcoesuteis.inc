@@ -43,7 +43,8 @@ function validaAutenticacao($link,$tipo){
                     location.href = "'.$link.'"
                </script>';
         }//elseif ($senha !== $usuarios['SENHA_USUARIO'])
-         elseif (Bcrypt::check($senha !== $usuarios['SENHA_USUARIO'], $hash ))
+        // elseif (Bcrypt::check($senha !== $usuarios['SENHA_USUARIO'], $hash ))
+        elseif (!Bcrypt::check($senha, $usuarios['SENHA_USUARIO'] ))
             {
             session_destroy();
             echo '<script type="text/javascript">
