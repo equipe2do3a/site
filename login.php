@@ -32,7 +32,8 @@ if (isset($_POST['email']) and isset($_POST['senha'])) {
         $nomeUsuario = $rray['NOME_USUARIO'];
         //if(Bcrypt::check($senhaUsuario, $hash, $tipoUsuario === 'RES')){
         //if($senha != $senhaUsuario){
-        if (Bcrypt::check($senha != $senhaUsuario, $hash)) {
+        //if (Bcrypt::check($senha != $senhaUsuario, $hash)) {
+        if (!Bcrypt::check($senha,$senhaUsuario)) {
             echo 'Senha não confere !';
         } else {
             $_SESSION['email'] = $email;
