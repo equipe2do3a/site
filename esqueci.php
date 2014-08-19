@@ -44,3 +44,4 @@ function geraSenha($tamanho = 8, $maiusculas = true, $numeros = true, $simbolos 
 }
 
     
+// kd a verificação do email ???
